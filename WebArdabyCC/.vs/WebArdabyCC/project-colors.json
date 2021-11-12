@@ -15,7 +15,12 @@
       "ProjectGuid": "9f026e33-38e1-4391-a02a-e4df574e90a7",
       "DisplayName": "WebArdabyCC",
       "ColorIndex": 1
+    },
+    "3671b201-0618-4091-8180-606a5603c663": {
+      "ProjectGuid": "3671b201-0618-4091-8180-606a5603c663",
+      "DisplayName": "WebArdabyCC",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
