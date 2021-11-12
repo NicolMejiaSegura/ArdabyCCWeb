@@ -1,5 +1,4 @@
 ﻿@import url('./fuentes.css');
-@import url('./navbar.css');
 
 :root {
     --azulfuerte: #0528a8;
@@ -18,6 +17,7 @@
 /***********************************************************************************************************/
 
 #presentacion img {
+    margin-top: -3.3vh;
     width: 100%;
     height: 100vh;
 }

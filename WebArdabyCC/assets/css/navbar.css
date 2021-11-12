@@ -6,6 +6,9 @@
     --ligth: #ffffff;
     --dark: #000000;
 }
+.navbar {
+    background-color: transparent;
+}
 
 .nav-link {
     font-family: 'Montserrat-Bold';
