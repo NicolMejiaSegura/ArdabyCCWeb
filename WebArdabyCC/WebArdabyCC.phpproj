@@ -3,4 +3,7 @@
     <EnvName>PHPDev</EnvName>
     <RuntimeVersion>8.0</RuntimeVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="modelos\" />
+  </ItemGroup>
 </Project>

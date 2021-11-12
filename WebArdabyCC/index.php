@@ -12,4 +12,9 @@ $f3->config('config.ini');
 //----- Index
 $f3->route('GET /', 'controladores\Inicio->VistaInicio');
 
+//Noticias
+$f3->route('GET /noticias', 'controladores\Noticias->VistaNoticias');
+
+$f3->route('GET /contacto', 'controladores\Contactanos->VistaContactanos');
+
 $f3->run();
