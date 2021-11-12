@@ -1,2 +1,5 @@
-﻿body {
+﻿#presentacion img {
+    margin-top: -3.3vh;
+    width: 100%;
+    height: 50vh;
 }

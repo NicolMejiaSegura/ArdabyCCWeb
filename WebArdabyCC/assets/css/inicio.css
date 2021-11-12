@@ -146,34 +146,3 @@
     }
 
 /******************************************************************************************************/
-
-footer {
-    padding-top: 1.2%;
-    background: #212733;
-}
-
-.redes {
-    font-size: 30px;
-    color: #ffffff;
-    transition: .3s ease-in;
-}
-
-    .redes:hover {
-        font-size: 35px;
-        color: #69faf5;
-    }
-
-.derechos-reservados {
-    color: #ffffff;
-}
-
-.enlaces {
-    color: #ffffff;
-    transition: .3s ease-in;
-}
-
-    .enlaces:hover {
-        font-size: 18px;
-        text-decoration: none;
-        color: #69faf5;
-    }
