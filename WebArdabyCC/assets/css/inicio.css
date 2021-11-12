@@ -1,0 +1,179 @@
+﻿@import url('./fuentes.css');
+@import url('./navbar.css');
+
+:root {
+    --azulfuerte: #0528a8;
+    --azulclaro: #00ffe9;
+    --ligth: #ffffff;
+    --dark: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat-Regular';
+}
+
+/***********************************************************************************************************/
+
+#presentacion img {
+    width: 100%;
+    height: 100vh;
+}
+
+.barra1 {
+    width: 25%;
+    margin-top: -20px;
+    height: 3px;
+    background: linear-gradient(to right, var(--azulfuerte), 20%, var(--azulclaro));
+}
+
+/**********************************************************************************************************/
+
+#seccion1 {
+    padding-top: 6%;
+}
+
+.titulo-empresa {
+    font-family: 'Montserrat-Bold';
+}
+
+.historia {
+    font-family: 'Montserrat-Regular';
+}
+
+.cetificacion {
+    font-size: 20px;
+    font-family: 'Montserrat-Regular';
+}
+
+.btnCM {
+    margin-bottom: 6%;
+    font-size: 18px;
+    font-family: 'Montserrat-Bold';
+    border: var(--dark) 1px solid;
+    background: rgba(0, 255, 242, 0.473);
+    transition: .5s ease-in-out;
+}
+
+    .btnCM:hover {
+        transform: scale(1.07);
+        background: var(--azulclaro);
+        border: var(--dark) 3px solid;
+        box-shadow: 0px 5px 25px 5px var(--azulfuerte);
+    }
+
+
+/******************************************************************************************************/
+#seccion2 {
+    background-image: url("../img/bg2.jpg");
+    background-color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion2 {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.titulo-datos1 {
+    font-family: 'Montserrat-Bold';
+    margin-top: 6%;
+    color: white;
+}
+
+.datos1 {
+    font-family: 'Montserrat-Regular';
+    color: rgb(255, 255, 255);
+}
+
+/******************************************************************************************************/
+
+#seccion3 {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+
+.titulo-datos2 {
+    font-family: 'Montserrat-Bold';
+}
+
+.datos2 {
+    font-family: 'Montserrat-Regular';
+}
+
+/******************************************************************************************************/
+
+#seccion4 {
+    background-color: rgb(0, 0, 0);
+    background-image: url('../img/bg3.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-datos3 {
+    font-family: 'Montserrat-Bold';
+    margin-top: 8%;
+    color: #ffffff;
+}
+
+.datos3 {
+    font-family: 'Montserrat-Regular';
+    color: #ffffff;
+}
+
+.contactanos {
+    margin-bottom: 6%;
+    border: var(--azulfuerte) 2px solid;
+    background: rgba(255, 255, 255, 0.411);
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat-Bold';
+    transition: .3s ease-in-out;
+}
+
+    .contactanos:hover {
+        border: var(--azulfuerte) 3px solid;
+        transform: scale(1.04);
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        box-shadow: 0px 0px 30px 3px var(--azulclaro);
+    }
+
+/******************************************************************************************************/
+
+footer {
+    padding-top: 1.2%;
+    background: #212733;
+}
+
+.redes {
+    font-size: 30px;
+    color: #ffffff;
+    transition: .3s ease-in;
+}
+
+    .redes:hover {
+        font-size: 35px;
+        color: #69faf5;
+    }
+
+.derechos-reservados {
+    color: #ffffff;
+}
+
+.enlaces {
+    color: #ffffff;
+    transition: .3s ease-in;
+}
+
+    .enlaces:hover {
+        font-size: 18px;
+        text-decoration: none;
+        color: #69faf5;
+    }
