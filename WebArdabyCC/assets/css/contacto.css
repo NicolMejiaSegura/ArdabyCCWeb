@@ -1,4 +1,5 @@
-﻿#presentacion img {
+﻿
+#presentacion img {
     margin-top: -3.3vh;
     width: 100%;
     height: 48vh;
@@ -9,7 +10,7 @@
 }
 
 .contenedor {
-    padding: 2vh 0;
+    padding: 5vh 0;
     background-color: #f6f4f4;
 }
 
@@ -45,4 +46,15 @@
 .info2 {
     padding-top: 3vh;
     padding-left: 5vw;
+}
+
+/********************************************************** Ubicación *****************************************************************/
+
+#ubicacion {
+    padding: 5vh 0;
+    background-color:#afafaf;
+}
+
+.ubicación {
+    margin-top: 10vh;
 }
