@@ -9,19 +9,40 @@
 }
 
 .contenedor {
-    background-color: #d5d5d5;
+    padding: 2vh 0;
+    background-color: #f6f4f4;
+}
+
+
+
+.nav-tabs {
+    margin-left: 5vh;
+    margin-right: 3vh;
+}
+
+/********************************************************** Primera parte ***************************************************************/
+
+.info1 {
+    padding-top: 3vh;
+    padding-left: 5vw;
 }
 
 .nombre {
-    width: 180px;
-
+    width: 175px;
 }
 
 .apellido {
-    width: 180px;
+    width: 175px;
 }
 
-.info1 {
-    padding-top: 2vh;
-    padding-left: 2vw;
+
+#mensaje {
+    resize: none;
+}
+
+
+/********************************************************** Segunda Parte *****************************************************************/
+.info2 {
+    padding-top: 3vh;
+    padding-left: 5vw;
 }
