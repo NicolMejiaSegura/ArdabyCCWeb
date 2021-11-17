@@ -58,3 +58,12 @@
 .ubicación {
     margin-top: 10vh;
 }
+
+
+/********************************************** Elementos genericos ****************************************/
+
+.btnenviar {
+    background-color: #07f9c690;
+    border: 2px solid #000000ff;
+
+}

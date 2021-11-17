@@ -20,7 +20,17 @@
       "ProjectGuid": "3671b201-0618-4091-8180-606a5603c663",
       "DisplayName": "WebArdabyCC",
       "ColorIndex": 2
+    },
+    "b68efe7f-fd2c-4b00-b79c-7f0d7c5cac95": {
+      "ProjectGuid": "b68efe7f-fd2c-4b00-b79c-7f0d7c5cac95",
+      "DisplayName": "WebArdabyCC",
+      "ColorIndex": 3
+    },
+    "301e9033-2acf-48b3-be6b-3e851a198c5f": {
+      "ProjectGuid": "301e9033-2acf-48b3-be6b-3e851a198c5f",
+      "DisplayName": "WebArdabyCC",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }

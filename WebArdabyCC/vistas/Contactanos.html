@@ -90,7 +90,7 @@
                                 <div class="tab-content" id="myTabContent">
                                     <!--************************************************************************************************************************-->
                                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                        <form class="info1" action="/" method="post">
+                                        <form class="info1" action="/cotizacion" method="post">
                                             <div class="row">
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                                     <h6>Nombre</h6>
@@ -164,11 +164,11 @@
                                             <div class="row">
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="opcion1" value="option2">
+                                                        <input class="form-check-input" type="radio" name="telefonoCoti" id="opcion1" value="1">
                                                         <label class="form-check-label" for="opcion1">Móvil</label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="opcion2" value="option2">
+                                                        <input class="form-check-input" type="radio" name="telefonoCoti" id="opcion2" value="2">
                                                         <label class="form-check-label" for="opcion2">Fijo</label>
                                                     </div>
                                                 </div>
@@ -210,7 +210,7 @@
                                             <div class="row">
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                                                     <div class="form-group">
-                                                        <textarea class="form-control" id="mensaje" rows="5"></textarea>
+                                                        <textarea class="form-control" name="mensaje" id="mensaje" rows="5"></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
@@ -222,7 +222,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                                                    <button class="btn">Enviar</button>
+                                                    <button class="btn btnenviar">Enviar</button>
                                                 </div>
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
@@ -383,7 +383,7 @@
                                             <br />
                                             <div class="row">
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                                                    <button class="btn">Enviar</button>
+                                                    <button class="btn btnenviar">Enviar</button>
                                                 </div>
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                                                 </div>
@@ -406,18 +406,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ubicación">
-                    <h3 class="text-center">Contacto en México</h3>
+                    <h3 class="text-center">Contacto</h3>
                     <div>
                         <hr />
                     </div>
-                    <p class="text-center">Insertar la dirección del call center</p>
-                    <p class="text-center">Email: <a href="mailto:ejemplo@ardabytec.com">ejemplo@ardabytec.com</a></p>
+                    <p class="text-center">Úbicación:</p>
+                    <p class="text-center">Ignacio Rodríguez Galván 8, Centro, Tizayuca, Hidalgo</p>
+                    <p class="text-center">Teléfono: <a href="tel:+525577036297">5577036297</a></p>
+                    <p class="text-center">Email: <a href="mailto:contactcenter@ardabytec.com">contactcenter@ardabytec.com</a></p>
                 </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d939.8494739406789!2d-99.26482557080057!3d19.567446899175497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21c89e9822f73%3A0xc51f9d5a201f2147!2sC.%20Pioneros%20del%20Cooperativismo%20369%2C%20Mexico%20Nuevo%2C%2052966%20Cd%20L%C3%B3pez%20Mateos%2C%20M%C3%A9x.!5e0!3m2!1sen!2smx!4v1636837085641!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            
-            </div>
-        </div>   
-        </div> 
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.5622593297281!2d-98.97960822281789!3d19.840115862844023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1919608e497dd%3A0xc4e3b08a69426ce1!2sOFICINAS%20EN%20RENTA%20%22Torre%20Infinity%20Espacios%22!5e0!3m2!1sen!2smx!4v1637076185019!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>   
+            </div> 
+        </div>
     </section>
 
 

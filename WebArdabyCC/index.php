@@ -20,6 +20,8 @@ $f3->route('GET /noticias', 'controladores\Noticias->VistaNoticias');
 
 //contacto
 $f3->route('GET /contacto', 'controladores\Contactanos->VistaContactanos');
+//Cotización
+$f3->route('POST /cotizacion', 'controladores\Contactanos->EnviarCotizacion');
 
 
 

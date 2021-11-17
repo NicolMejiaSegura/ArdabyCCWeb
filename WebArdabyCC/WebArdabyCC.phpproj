@@ -4,6 +4,9 @@
     <RuntimeVersion>8.0</RuntimeVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="PHPMailer\**" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="modelos\" />
   </ItemGroup>
 </Project>
